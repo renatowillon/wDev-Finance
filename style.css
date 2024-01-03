@@ -82,8 +82,6 @@ footer {
   display: flex;
   padding-left: 10px;
   color: black;
-}
-input {
   border: 1px solid #2e77fe;
   border-radius: 10px;
   font-family: "Inter", sans-serif;
@@ -102,4 +100,41 @@ input {
 }
 .submit:hover {
   background-color: #0049d1;
+}
+.check{
+  margin-top: 15px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+  height: 15px;
+}
+.checkbox{
+  text-decoration: none;
+  background-color: #2e77fe;
+}
+.descricao{
+  font-size: 13px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.descricao_blue{
+  font-size: 13px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: right;
+  color: #5EB6FF;
+}
+.divleft{
+  display:flex;
+
+}
+.divright{
+  margin-right:5px;
 }
