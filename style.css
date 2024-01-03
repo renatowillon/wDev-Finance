@@ -85,3 +85,14 @@ input {
   width: 100%;
   height: 43px;
 }
+.submit{
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #021d4f;
+  background-color: #2e77fe;
+  border-radius: 10px;
+  width: 350px;
+  height: 42px;
+}
