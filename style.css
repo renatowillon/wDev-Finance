@@ -38,7 +38,7 @@ body * {
   border-radius: 195px;
   width: 195px;
 }
-.entrar:hover{
+.entrar:hover {
   background-color: #ffffff12;
 }
 .comecar {
@@ -51,7 +51,7 @@ body * {
   border-radius: 195px;
   width: 195px;
 }
-.comecar:hover{
+.comecar:hover {
   background-color: #0049d1;
 }
 footer {
@@ -64,7 +64,6 @@ footer {
   align-items: center;
   width: 100%;
   padding: 20px;
-  text-align: center;
 }
 .usuario {
   display: flex;
@@ -101,7 +100,7 @@ footer {
 .submit:hover {
   background-color: #0049d1;
 }
-.check{
+.check {
   margin-top: 15px;
   text-decoration: none;
   display: flex;
@@ -111,30 +110,55 @@ footer {
   margin-left: 5px;
   height: 15px;
 }
-.checkbox{
+.checkbox {
   text-decoration: none;
   background-color: #2e77fe;
 }
-.descricao{
+.descricao {
   font-size: 13px;
   margin-left: 5px;
   display: flex;
   flex-direction: row;
-  
 }
-.descricao_blue{
+.descricao_blue {
   font-size: 13px;
   margin-left: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: right;
-  color: #5EB6FF;
+  color: #5eb6ff;
 }
-.divleft{
-  display:flex;
-
+.divleft {
+  display: flex;
+  align-items: flex-start;
 }
-.divright{
-  margin-right:5px;
+.divright {
+  margin-right: 5px;
+}
+.divdesc {
+  width: 350px;
+  margin-top: 15px;
+  font-weight: 500;
+  display: flex;
+}
+.btgoogle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  width: 250px;
+  height: 45px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  font-size: 15px;
+  color: #1d1d1d;
+}
+.btgoogle img {
+  width: 30px;
+}
+.texto-dark {
+  font-size: 15;
+  font-weight: 800;
+  color: #1d1d1d;
+  font-family: "Roboto", sans-serif;
 }

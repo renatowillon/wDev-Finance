@@ -5,34 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Merriweather+Sans:wght@300;700&family=Poppins:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
     <title>wFinance | Login</title>
   </head>
   <body>
-  
     <div class="login">
       <img class="logo" src="./assets/Logo-wFinance.png" />
-  
+
       <h1>Login</h1>
       <form class="usuario" action="./index.html" method="GET">
         <span class="texto">E-mail</span>
-        <input class="formulario" type="email" name="email"/>
+        <input class="formulario" type="email" name="email" />
         <span class="texto">Senha</span>
-        <input class="formulario" type="password" name="senha"/>
+        <input class="formulario" type="password" name="senha" />
         <div class="check">
-          <div class="divleft"><input class="checkbox" type="checkbox" name="checksenha" id="relembrasenha" />
-          <label for="relembrasenha" class="descricao">Remember-me</label></div>
-          <div class="divright"><a href="./index.html" class="descricao_blue">Esqueceu a senha?</a></div>
+          <div class="divleft">
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="checksenha"
+              id="relembrasenha"
+            />
+            <label for="relembrasenha" class="descricao">Remember-me</label>
+          </div>
+          <div class="divright">
+            <a href="./index.html" class="descricao_blue">Esqueceu a senha?</a>
+          </div>
         </div>
-        <input class="submit" type="submit"/>
+        <input class="submit" type="submit" />
       </form>
+      <div class="divdesc">
+        <span class="descricao">Não Tem Uma Conta?</span>
+        <a href="./cadastro.html" class="descricao_blue">Inscreva-se</a>
+      </div>
+      <a href="https://www.google.com.br" target="_blank">
+        <div class="btgoogle">
+          <img src="./icons/logo-google.png" />
+          <span class="texto-dark">Entrar com o Google</span>
+        </div>
+      </a>
     </div>
-    </div>
-  
   </body>
   <script
     type="module"
